@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: Bioinformatics and Computational Biology
 date: 2023-02-08
 type: landing
 
