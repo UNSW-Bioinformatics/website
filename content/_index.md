@@ -1,21 +1,21 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2023-02-08
 type: landing
 
 sections:
   - block: hero
     content:
       title: |
-        Wowchemy
+        Bioinformatics and Computational Biology
         Research Group
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **Bioinformatics and Computational Biology Research Group** has been a center of excellence for bioinformatics research, teaching, and practice since its founding in 2023.
   
   - block: collection
     content:
