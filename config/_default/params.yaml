@@ -7,8 +7,8 @@
 
 appearance:
   mode: light
-  color: purple 
-  font: native
+  color: zinc 
+  font: roboto
   font_size: L
 
 # SEO
