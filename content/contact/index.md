@@ -20,7 +20,7 @@ sections:
         country: Australia
         country_code: AUS
       coordinates:
-        latitude: '33.9173'
+        latitude: '-33.9173'
         longitude: '151.2313'
       directions: K17
       office_hours:
