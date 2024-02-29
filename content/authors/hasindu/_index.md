@@ -62,6 +62,7 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Researchers
+  - Core members
 ---
 He has around ten years of experience in embedded computing systems, computer architecture, general-purpose computing with the use of a Graphics Processing Unit (GPU), high-performance computing and low-level system programming, which he leverages for the architecture-aware design of efficient computational systems for bioinformatics. Examples of his recent work include: a novel domain-specific file format for efficient nanopore data processing (Gammaarachchi, Nature Biotechnology 2022); GPU-accelerated adaptive banded event alignment algorithm which is a core component in nanopore data analysis (Gammaarachchi, BMC Bioinformatics 2019); memory optimisation of nanopore sequence alignment using partitioned indexes (Gammaarachchi, Scientific Reports 2020); and, optimisation of de Bruijn graphs using cache-friendly data structures in next-generation variant calling (Gammaarachchi, IEEE/ACM transactions on computational biology and bioinformatics / IEEE, 2018). 
 
