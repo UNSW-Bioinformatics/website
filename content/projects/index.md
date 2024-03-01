@@ -1,7 +1,17 @@
 ---
+type: landing
 
+sections:
+  - block: hero
+    content:
+      title: |
+      image:
+        filename: welcome.jpg
+      text: |
+        <h3>Rational vaccine design using computational models</h3> 
 ---
 
+<body>
 <div class = "researchText">
 <h3>Rational vaccine design using computational models</h3> 
 
@@ -19,3 +29,4 @@ Honors and postgraduate opportunities are available. Please contact [Raymond Lou
 <div class = "researchGraphic">
 <img src = "fitness.png" class = "img-responsive" alt = "Sample-wise error rates for individual and combined datasets">
 </div>
+</body>
