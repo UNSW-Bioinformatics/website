@@ -2,6 +2,7 @@
 
 ---
 
+<div class = "researchText">
 <h3>Rational vaccine design using computational models</h3> 
 
 <p style="font-size:14px;">Description of topic</p> 
@@ -11,6 +12,7 @@
 - Journal 1
 - Journal 2
 
-### More information
+<h4> More information</h4>
 
 Honors and postgraduate opportunities are available. Please contact [Raymond Louie](mailto:r.louie@unsw.edu.au).
+</div>
