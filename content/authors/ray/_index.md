@@ -27,10 +27,10 @@ education:
   courses:
     - course: PhD in Electrical Engineering
       institution: University of Sydney
-      year: 200?
+      year: 2010
     - course: BEng/BSc in Electrical Engineering/Computer Science (1st Class Honours)
       institution: University of New South Wales
-      year: 200?
+      year: 2005
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
