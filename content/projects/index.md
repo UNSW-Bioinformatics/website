@@ -2,6 +2,7 @@
 
 ---
 
+These are the current projects that our group members are working on, and student (honors and post-graduate) opportunities available. We also welcome collaborators, feel free to contact us.
 
 <h3>Rational vaccine design using computational models</h3> 
 
