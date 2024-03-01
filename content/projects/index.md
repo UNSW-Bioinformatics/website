@@ -41,4 +41,3 @@ Honors and postgraduate opportunities are available. Please contact [Raymond Lou
 <div class = "image-side">
 	<img src = "fitness.png" class = "img-responsive" alt = "Fitness landscape">
 </div>
-</body>
