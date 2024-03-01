@@ -12,7 +12,7 @@ Here are software packages developed by members of our group.
   <td colspan = "2"></td>
   </tr>
   <tr>
-  <td style = "padding-left:10px;">MPF-MPL</td>
+  <td style = "padding-left:10px;">MPF-BML</td>
   <td style = "padding-left:10px;padding-right:10px;">Minimum probability flow–Boltzmann Machine Learning (MPF–BML) performs fast and accurate inference of maximum entropy model parameters. This has been previously applied to viral-sequence data to design efficient vaccines.</td>
   <td style = "padding-left:5px;padding-right:5px;"><a href = "https://github.com/raymondlouie/MPF-BML" style = "color:#ce1126">Software</a></td> <td style="padding-left:5px;"><a href = "https://academic.oup.com/bioinformatics/article/36/7/2278/5680343?login=false" style = "color:#ce1126;">Journal Article</a></td>
   </tr>
