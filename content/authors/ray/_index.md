@@ -81,4 +81,4 @@ I am a computational biologist and bioinformatician, with a current focus on app
 
 I received a PhD in Electrical Engineering at the University of Sydney, after which I was an ARC Postdoctoral Fellow focusing on wireless communications. I then moved to the Hong Kong University of Science and Technology, where I focused on applying statistical and machine learning tools to viral sequence data, to aid in the design of effective vaccines. My background allows for a unique multi-disciplinary approach to solving biological problems.
 
-I am currently recruiting postgraduate and undergraduate honors students. Please contact me if interested.
+I am currently recruiting postgraduate and undergraduate honors students. Please [contact me](mailto:r.louie@unsw.edu.au) if interested.
