@@ -39,10 +39,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:r.louie@unsw.edu.au'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/RayLouie123
+  - icon: linkedin
+    icon_pack: fab
+    link: https://au.linkedin.com/in/raymond-louie-b855615
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com.au/citations?user=8ac1c54AAAAJ
