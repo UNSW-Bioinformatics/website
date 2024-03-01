@@ -30,10 +30,8 @@ education:
   courses:
     - course: PhD in Electrical Engineering
       institution: University of Sydney
-      year: 2010
     - course: BEng/BSc in Electrical Engineering/Computer Science (1st Class Honours)
       institution: University of New South Wales
-      year: 2005
 
 More information:
   - Please see https://www.unsw.edu.au/staff/raymond-louie for more information on my publications, teaching and research interests.
