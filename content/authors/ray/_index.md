@@ -21,7 +21,10 @@ organizations:
 bio: I am a computational biologist and bioinformatician, with a current focus on applying computational tools to analyze immune cells in patients with HCV, cealiac disease or blood malignancies treated with CAR T therapy. 
 
 interests:
-  - Multi-omics (Genomics, Transcriptomics, Proteomics), machine learning, computational biology, viral evolution 
+  - Multi-omics (Genomics, Transcriptomics, Proteomics)
+  - Machine learning
+  - Computational biology
+  - Viral evolution 
 
 education:
   courses:
@@ -52,6 +55,9 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com.au/citations?user=8ac1c54AAAAJ
+  - icon: github
+    icon_pack: ai
+    link: https://github.com/raymondlouie
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
