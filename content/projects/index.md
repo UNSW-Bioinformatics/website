@@ -16,3 +16,6 @@
 
 Honors and postgraduate opportunities are available. Please contact [Raymond Louie](mailto:r.louie@unsw.edu.au).
 </div>
+<div class = "researchGraphic">
+<img src = "fitness.png" class = "img-responsive" alt = "Sample-wise error rates for individual and combined datasets">
+</div>
