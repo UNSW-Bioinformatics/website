@@ -1,14 +1,12 @@
 ---
-title: Projects
-date: 2022-10-24
 
 ---
 
-<p style="font-size:16px;">Research topic 1.</p> 
+<h3>Rational vaccine design using computational models</h3> 
 
 <p style="font-size:14px;">Description of topic</p> 
 
-### Representative publications
+<h4> Representative publications</h4>
 
 - Journal 1
 - Journal 2
