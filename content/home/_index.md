@@ -7,7 +7,7 @@ The **Bioinformatics and Computational Biology Research Group** has been a cente
 <h3>News</h3>
 
 <ul style="font-size:14px;">
-  <li>X</li>
+  <li> <strong> August 2023: </strong> Core members Sara Ballouz and Raymond Louie co-organized a Single-Cell Bioinformatics Analysis whole-day workshop in collaboration with members from the Garvan Institute and the Kirby Institute. This inter-school collaboration attracted >30 ECR and MCR from 5 research institutes, and received positive feedback.</li>
 </ul style="font-size:14px;">
 
  
