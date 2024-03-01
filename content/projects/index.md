@@ -3,15 +3,18 @@
 ---
 
 <style>
-  .container {
-    display: flex; /* Use flexbox to lay out children */
+  body {
+    display: flex; /* Use flexbox to lay out children directly within body */
     align-items: center; /* Align items vertically in the center */
     justify-content: center; /* Center the content horizontally */
     gap: 20px; /* Add some space between the text and the image */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full viewport height */
   }
 
   .text-side {
     flex: 1; /* Allows the text side to grow and fill the space */
+    padding: 20px; /* Add some padding around the text */
   }
 
   .image-side {
@@ -25,18 +28,18 @@
 </style>
 
 <div class = "text-side">
-<h3>Rational vaccine design using computational models</h3> 
+	<h3>Rational vaccine design using computational models</h3> 
 
-<p style="font-size:14px;">Description of topic</p> 
+	<p style="font-size:14px;">Description of topic</p> 
 
-<h4> Representative publications</h4>
+	<h4> Representative publications</h4>
 
-- Journal 1
-- Journal 2
+		- Journal 1
+		- Journal 2
 
 <h4> More information</h4>
 
-Honors and postgraduate opportunities are available. Please contact [Raymond Louie](mailto:r.louie@unsw.edu.au).
+	Honors and postgraduate opportunities are available. Please contact [Raymond Louie](mailto:r.louie@unsw.edu.au).
 </div>
 <div class = "image-side">
 	<img src = "fitness.png" class = "img-responsive" alt = "Fitness landscape">
