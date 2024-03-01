@@ -15,7 +15,7 @@ role: Lecturer of Bioinformatics
 # Organizations/Affiliations
 organizations:
   - name: University of New South Wales
-    url: ''
+    url: https://www.unsw.edu.au/staff/raymond-louie
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am a computational biologist and bioinformatician, with a current focus on applying computational tools to analyze immune cells in patients with HCV, cealiac disease or blood malignancies treated with CAR T therapy. 
