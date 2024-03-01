@@ -2,7 +2,7 @@
 
 ---
 
-We are the coordinators of the [Bachelor of Engineering (Bioinformatics)](https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-bioinformatics?studentType=Domestic) degree at UNSW. For undergraduate students, feel free to contact the course coordinator, indicated below, for more information. For high-school teachers/career coordinators, we are keen to promote bioinformatics to students, and are available for speaking engagements. Please contact [Sara Ballouz](mailto:s.ballouz@unsw.edu.au) or [Raymond Louie](mailto:r.louie@unsw.edu.au).
+We are the coordinators of the [Bachelor of Engineering (Bioinformatics)](https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-bioinformatics?studentType=Domestic) degree at UNSW. For undergraduate students, feel free to contact the course coordinator below for more information. For high-school teachers/career coordinators, we are keen to promote bioinformatics to students, and are available for speaking engagements. Please contact [Sara Ballouz](mailto:s.ballouz@unsw.edu.au) or [Raymond Louie](mailto:r.louie@unsw.edu.au).
 
 We are currently teaching the following courses:
 

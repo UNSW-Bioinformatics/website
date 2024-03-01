@@ -22,6 +22,8 @@ These are the current projects that our group members are working on. Please con
 <h4> More information</h4>
 <p style="font-size:14px;"> Honors and postgraduate opportunities are available. Please contact <a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a>.</p> 
 
+<hr>
+
 <h3>Developing a machine learning model to predict disease outcome</h3> 
 
 <p style="font-size:14px;"> Accurately predicting disease outcomes can have a significant impact on patient care, leading to early detection, personalized treatment plans, and improved clinical outcomes. Machine learning algorithms provide a powerful tool to achieve this goal by identifying novel biomarkers and drug targets for various diseases. By integrating machine learning algorithms with biological data, you will have the opportunity to push the boundaries of precision medicine and contribute to algorithms that can revolutionize the field. Such biological data includes single-cell datasets, where we have considerable experience.</p> 
