@@ -6,7 +6,7 @@ These are the current projects that our group members are working on. Please con
 
 <h3>Rational vaccine design using computational models</h3> 
 
-<p style="font-size:14px;">The past few years has seen an abundance in viral sequence data, such as SARS-Cov-2. This information can be exploited for the rational design of vaccines, by building models which capture the sequence patterns in the virus. These patterns can be exploited to find weaknesses in the virus, which can then be used to design effective vaccines. </p> 
+<p style="font-size:14px;">The past few years has seen an abundance in sequence data for viruses such as SARS-CoV-2, HIV and HCV. This information can be exploited for the rational design of vaccines, by building models which capture the patterns in the viral sequences. These patterns can be exploited to find weaknesses in the virus, which can then be used to design effective vaccines. </p> 
 
 <h4> Representative publications</h4>
 <ol style="font-size:14px;">
