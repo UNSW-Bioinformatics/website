@@ -2,19 +2,11 @@
 title: Projects
 date: 2022-10-24
 
-type: post
-
-sections:
-  - block: markdown
-    content:
-      title: 
-      text: Here are the main research projects our members are working on, and potential honors and postgraduate opportunities are indicated. Please feel free to reach out to find more about the project. 
-
 ---
 
-## Research topic 1
+<p style="font-size:16px;">Research topic 1.</p> 
 
-Description of topic
+<p style="font-size:14px;">Description of topic</p> 
 
 ### Representative publications
 
