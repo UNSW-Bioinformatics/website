@@ -21,7 +21,7 @@ organizations:
 bio: I am a computational biologist and bioinformatician, with a current focus on applying computational tools to analyze immune cells in patients with HCV, cealiac disease or blood malignancies treated with CAR T therapy. 
 
 interests:
-  - Transcriptomics, RNA-seq, scRNA-seq
+  - Multi-omics (Genomics, Transcriptomics, Proteomics), machine learning, computational biology, viral evolution 
 
 education:
   courses:
@@ -31,6 +31,9 @@ education:
     - course: BEng/BSc in Electrical Engineering/Computer Science (1st Class Honours)
       institution: University of New South Wales
       year: 2005
+
+More information:
+  - Please see https://www.unsw.edu.au/staff/raymond-louie for more information on my publications, teaching and research interests.
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
