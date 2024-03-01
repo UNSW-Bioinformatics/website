@@ -1,14 +1,5 @@
 ---
-type: landing
 
-sections:
-  - block: hero
-    content:
-      title: |
-      image:
-        filename: welcome.jpg
-      text: |
-        <h3>Rational vaccine design using computational models</h3> 
 ---
 
 <body>
@@ -27,6 +18,6 @@ sections:
 Honors and postgraduate opportunities are available. Please contact [Raymond Louie](mailto:r.louie@unsw.edu.au).
 </div>
 <div class = "researchGraphic">
-<img src = "fitness.png" class = "img-responsive" alt = "Sample-wise error rates for individual and combined datasets">
+	<img src = "fitness.png" class = "img-responsive" alt = "Fitness landscape">
 </div>
 </body>
