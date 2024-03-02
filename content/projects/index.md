@@ -4,6 +4,14 @@
 
 These are the current projects that our group members are working on. Please contact us for student (honors and post-graduate) opportunities and research collaborations.
 
+<nav>
+     <ul>
+            <li><a href="#rationalVaccine">Rational vaccine design using computational models</a></li>
+            <li><a href="#machineLearning">Developing a machine learning model to predict disease outcome</a></li>
+     </ul>
+</nav>
+
+<section id="rationalVaccine">
 <h3>Rational vaccine design using computational models</h3> 
 
 <p style="font-size:14px;">The past few years has seen an abundance in sequence data for viruses such as SARS-CoV-2, HIV and HCV. This information can be exploited for the rational design of vaccines, by building models which capture the patterns in the viral sequences. These patterns can be exploited to find weaknesses in the virus, which can then be used to design effective vaccines. </p> 
@@ -22,7 +30,11 @@ These are the current projects that our group members are working on. Please con
 <h4> More information</h4>
 <p style="font-size:14px;"> Honors and postgraduate opportunities are available. Please contact <a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a>.</p> 
 
+</section>
+
 <hr>
+
+<section id="machineLearning">
 
 <h3>Developing a machine learning model to predict disease outcome</h3> 
 
@@ -41,3 +53,6 @@ These are the current projects that our group members are working on. Please con
 
 <h4> More information</h4>
 <p style="font-size:14px;"> Honors and postgraduate opportunities are available. Please contact <a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a>.</p> 
+
+</section>
+
