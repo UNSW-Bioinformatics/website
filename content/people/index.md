@@ -20,8 +20,7 @@ sections:
       show_social: true
   - block: markdown
     content:
-      title: My title
-      subtitle: My subtitle
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      title: Affliate members
+      text: <ul style="font-size:18px;"> <li> Annette Spooner </li> <li> Arcot Sowyma </li>  </ul style="font-size:18px;">
 ---
 
