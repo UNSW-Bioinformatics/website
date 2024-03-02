@@ -20,4 +20,3 @@ sections:
       show_social: true
 ---
 
-<h3> Affliate </h3>
