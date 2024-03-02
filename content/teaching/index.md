@@ -7,6 +7,7 @@ We are the coordinators of the [Bachelor of Engineering (Bioinformatics)](https:
 We are currently teaching the following courses:
 
 <p style="font-size:14px;">
+<table id='courses-top' style="border:0px" >
 <tr>
 <td> Course</td>
 <td> Contact</td>
@@ -14,7 +15,6 @@ We are currently teaching the following courses:
 Description
 </td>
 </tr>
-<table id='courses-top' style="border:0px" >
 <tr>
 <td> <a href="https://www.handbook.unsw.edu.au/undergraduate/courses/2023/BINF2010">BINF2010: Introduction to Bioinformatics</a> 
  </td>

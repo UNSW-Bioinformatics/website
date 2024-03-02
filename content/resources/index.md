@@ -8,8 +8,8 @@ Here are software packages developed by members of our group.
 <table class = "table-repsonsive table-bordered">
   <tr>
   <td style = "font-weight:bold" class = "text-center">Brief Description</td>
-  <td style = "font-weight:bold" class = "text-center">Name</td>
   <td style = "font-weight:bold" class = "text-center">Contact</td>
+  <td style = "font-weight:bold" class = "text-center">Description</td>
   <td colspan = "2"></td>
   </tr>
   <tr>
