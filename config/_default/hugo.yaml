@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Bioinformatics and Computational Biology # Website name
+title: UNSW Bioinformatics and Computational Biology # Website name
 baseURL: 'https://sarbal.github.io/binfgroup/' # Website URL
 
 ############################

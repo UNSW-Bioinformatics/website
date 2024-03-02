@@ -11,6 +11,8 @@ These are the current projects that our group members are working on. Please con
      </ul>
 </nav>
 
+<hr>
+
 <section id="rationalVaccine">
 <h3>Rational vaccine design using computational models</h3> 
 
