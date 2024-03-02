@@ -13,8 +13,6 @@ sections:
       user_groups:
           - Core members
           - Affliate members
-          - Students
-          - Collaborators 
       sort_by: Params.last_name
       sort_ascending: true
     design:
