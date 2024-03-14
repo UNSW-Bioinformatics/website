@@ -6,7 +6,7 @@ sections:
     content:
       title: Section 1
       subtitle: A subtitle
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      text: <meta http-equiv="Refresh" content="0; url='https://sarbal.github.io/binfgroup/home/'" />
 ---
 
 
