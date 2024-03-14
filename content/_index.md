@@ -1,6 +1,6 @@
 ---
 type: landing
-
+url: "/home/"
 ---
 
 
