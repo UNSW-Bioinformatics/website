@@ -30,7 +30,7 @@ These are the current projects that our group members are working on. Please con
 
 
 <h4> More information</h4>
-<p style="font-size:14px;"> Honors and postgraduate opportunities are available. Please contact <a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a>.</p> 
+<p style="font-size:14px;"> Honors and postgraduate opportunities are available. Please send your CV and academic transcript to <a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a>.</p> 
 
 </section>
 
@@ -54,7 +54,7 @@ These are the current projects that our group members are working on. Please con
 </ol>
 
 <h4> More information</h4>
-<p style="font-size:14px;"> Honors and postgraduate opportunities are available. Please contact <a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a>.</p> 
+<p style="font-size:14px;"> Honors and postgraduate opportunities are available. Please send your CV and academic transcript to  <a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a>.</p> 
 
 </section>
 

@@ -20,7 +20,7 @@ sections:
       show_social: true
   - block: markdown
     content:
-      title: Affliate members
-      text: <ul style="font-size:18px;"> <li> Annette Spooner </li> <li> Arcot Sowyma </li>  </ul style="font-size:18px;">
+      title: Affliate members (CSE, UNSW)
+      text: <ul style="font-size:18px;"> <li> Annette Spooner </li> <li> Arcot Sowyma </li>  <li> Chun Tung Chou </li> <li> Michael Bain </li> <li> Wenjie Zhang </li> <li> Imran Razzak </li> <li> Aleksandar Ignjatovic </li> <li> Yang Song </li> <li> Flora Salim </li>  <li> Erik Meijering </li> </ul style="font-size:18px;">
 ---
 
