@@ -2,7 +2,9 @@
 
 ---
 
-These are the current projects that our group members are working on. Please contact us for student (honors and post-graduate) opportunities and research collaborations.
+These are the current projects that our group members are working on. Please click on the project title below for a detailed desription. 
+
+Please contact us for student (honors and post-graduate) opportunities and research collaborations.
 
 <nav>
      <ul>
@@ -11,8 +13,7 @@ These are the current projects that our group members are working on. Please con
      </ul>
 </nav>
 
-<!DOCTYPE html>
-<html>
+<nav>
 <head>
     <style>
         table {
@@ -36,21 +37,22 @@ These are the current projects that our group members are working on. Please con
     <thead>
         <tr>
             <!-- Adding onclick attributes for sorting -->
-            <th onclick="sortTable(0)">Project Description</th>
-            <th onclick="sortTable(1)">Person's Name</th>
+            <th onclick="sortTable(0)">Name</th>
+            <th onclick="sortTable(1)">Contact</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Rational vaccine design using computational models</td>
-            <td>Alex Johnson</td>
+            <td><a href="#rationalVaccine">Rational vaccine design using computational models</a></td>
+            <td><a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a></td>
         </tr>
         <tr>
-            <td>Developing a machine learning model to predict disease outcome</td>
-            <td>Jamie Smith</td>
+            <td><a href="#machineLearning">Developing a machine learning model to predict disease outcome</a></td>
+            <td><a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a></td>
         </tr>
     </tbody>
 </table>
+</nav>
 
 <script>
 function sortTable(column) {
