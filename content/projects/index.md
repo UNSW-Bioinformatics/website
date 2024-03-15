@@ -1,5 +1,5 @@
 ---
-
+share: false
 ---
 
 Explore our ongoing projects by clicking on their titles for detailed descriptions. For student (honors and post-graduate) opportunities and research collaborations, please get in touch.
