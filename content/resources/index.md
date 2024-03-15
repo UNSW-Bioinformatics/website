@@ -44,7 +44,7 @@ Here are software packages developed by members of our group.
 <table class="table-responsive table-bordered sortable">
   <thead>
     <tr>
-      <th class="text-center" onclick="sortTable(0)">Brief Description <span class="arrow"></span></th>
+      <th class="text-center" onclick="sortTable(0)">Name <span class="arrow"></span></th>
       <th class="text-center" onclick="sortTable(1)">Contact <span class="arrow"></span></th>
       <th class="text-center" onclick="sortTable(2)">Description <span class="arrow"></span></th>
       <th colspan="2" class="text-center">Links</th>
