@@ -2,7 +2,7 @@
 
 ---
 
-The **Bioinformatics and Computational Biology Research Group** has been a hub for bioinformatics research, teaching, and practice since its founding in 2023. We are located in the School of Computer Science and Engineering at the University of New South Wales (UNSW), Australia, and our [team](people) comprises of multiple groups who are passionate about bioinformatics and computational biology. We are involved in a number of [research](https://sarbal.github.io/binfgroup/projects) and [bioinformatics software](https://sarbal.github.io/binfgroup/resources/) projects, and offer these projects for both honors and post-graduate students. We are the key contact people for the [Bachelor of Engineering (Bioinformatics) degree](https://sarbal.github.io/binfgroup/teaching/) at UNSW, and are happy to speak at external events (e.g., high school and career events). 
+The **Bioinformatics and Computational Biology Research Group** has been a hub for bioinformatics research, teaching, and practice since its founding in 2023. We are located in the School of Computer Science and Engineering at the University of New South Wales (UNSW), Australia, and our [team](../people) comprises of multiple groups who are passionate about bioinformatics and computational biology. We are involved in a number of [research](https://sarbal.github.io/binfgroup/projects) and [bioinformatics software](https://sarbal.github.io/binfgroup/resources/) projects, and offer these projects for both honors and post-graduate students. We are the key contact people for the [Bachelor of Engineering (Bioinformatics) degree](https://sarbal.github.io/binfgroup/teaching/) at UNSW, and are happy to speak at external events (e.g., high school and career events). 
 
 <h3>News</h3>
 
