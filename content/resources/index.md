@@ -20,6 +20,7 @@ Here are software packages developed by members of our group.
             text-align: left;
         }
         th {
+            color: white;
             cursor: pointer;
         }
         th .arrow {
