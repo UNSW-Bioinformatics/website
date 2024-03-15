@@ -1,5 +1,5 @@
 ---
-share: false
+
 ---
 
 Explore our ongoing projects by clicking on their titles for detailed descriptions. For student (honors and post-graduate) opportunities and research collaborations, please get in touch.
@@ -94,8 +94,8 @@ function sortTable(column) {
 
 <h4> Representative publications</h4>
 <ol style="font-size:14px;">
-<li> MS Sohail, R. H. Y. Louie, Z Hong, JP Barton, MR McKay. Inferring epistasis from genetic time-series data. Molecular Biology and Evolution 39 (10) </li>
-<li> S. Sohail*, R. H. Y. Louie*, J. P. Barton, and M. R. McKay, “MPL resolves genetic linkage in fitness inference from complex evolutionary histories”, Nature Biotechnology. 2021 *Equal contribution </li>
+<li> MS Sohail, <span style="color: #FFD1DC;"> R. H. Y. Louie </span>, Z Hong, JP Barton, MR McKay. Inferring epistasis from genetic time-series data. Molecular Biology and Evolution 39 (10) </li>
+<li> S. Sohail*, <span style="color: #FFA500;"> R. H. Y. Louie* </span>, J. P. Barton, and M. R. McKay, “MPL resolves genetic linkage in fitness inference from complex evolutionary histories”, Nature Biotechnology. 2021 *Equal contribution </li>
 <li>  A. A. Quadeer, M. R. McKay, J.P. Barton, R.H.Y. Louie, “MPF-BML: a standalone GUI-based package for maximum entropy model inference”, Bioinformatics, 36 (7), pp 2278-2279, April, 2020 </li>
 <li> A. A. Quadeer, R.H.Y. Louie and M. R. McKay, "Identifying immunologically-vulnerable regions of the HCV E2 glycoprotein and broadly neutralizing antibodies that target them”, Nature Communications, 10 (1), pp. 1-11, 2019 </li>
 <li> R. H. Y. Louie, K. J. Kaczorowski, J. P. Barton, A. K. Chakraborty, and M. R. McKay, “The fitness landscape of the human immunodeficiency virus envelope proteins that are the targets of humoral immune responses”, Proceedings of the National Academy of Sciences of the USA (PNAS), 115:E564-E573, Jan 2018.  </li>
