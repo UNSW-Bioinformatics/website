@@ -8,7 +8,9 @@ We are involved in a number of [research](../projects) and [bioinformatics softw
 
 We are the key contact people for the [Bachelor of Engineering (Bioinformatics) degree](../teaching/) at UNSW, and are happy to speak at external events (e.g., high school and career events). 
 
-<h3>2024 News</h3>
+<h2>News</h2>
+
+<h3>2024</h3>
 
 <h4>January</h4>
 
