@@ -21,6 +21,7 @@ Here are software packages developed by members of our group.
             text-align: left;
         }
         th {
+            background-color: #4CAF50;
             color: white;
             cursor: pointer;
         }
