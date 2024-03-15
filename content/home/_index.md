@@ -2,7 +2,7 @@
 
 ---
 
-The **Bioinformatics and Computational Biology Research Group** has been a hub for bioinformatics research, teaching, and practice since its founding in 2023. We are located in the School of Computer Science and Engineering at the University of New South Wales (UNSW), Australia, and our [team](../people) comprises of multiple groups who are passionate about bioinformatics and computational biology. 
+The **Bioinformatics and Computational Biology Group** has been a hub for bioinformatics research, teaching, and practice since its founding in 2023. We are located in the School of Computer Science and Engineering at the University of New South Wales (UNSW), Australia, and our [team](../people) comprises of multiple groups who are passionate about bioinformatics and computational biology. 
 
 We are involved in a number of [research](../projects) and [bioinformatics software](../resources) projects, and offer these projects for both honors and post-graduate students. 
 
