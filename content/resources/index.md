@@ -34,21 +34,122 @@ Here are software packages developed by members of our group.
 
 </table>
 
-<table class="sortable">
- <thead>
-   <tr>
-     <th>Athlete</th>
-     <th>Age</th>
-     <th>Country</th>
-     <th>Gold Medals</th>
-  </tr>
- </thead>
-  <tbody>
-  <tr>
-   <td>David Boudia</td>
-   <td>23</td>
-   <td>United States</td>
-   <td>1</td>
-  </tr>
-  </tbody>
+
+<head>
+    <title>Sortable Table with Arrows</title>
+    <style>
+        th {
+            cursor: pointer;
+            position: relative;
+            padding-right: 25px; /* Make space for the arrow */
+        }
+        .arrow {
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .arrow.asc::after {
+            content: '▲';
+            color: black;
+        }
+        .arrow.desc::after {
+            content: '▼';
+            color: black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Sortable Table with Arrows</h2>
+<p>Click on the headers to sort the table.</p>
+
+<table id="sortableTable">
+    <thead>
+        <tr>
+            <th onclick="sortTable(0)">Name <span class="arrow"></span></th>
+            <th onclick="sortTable(1)">Age <span class="arrow"></span></th>
+            <th onclick="sortTable(2)">Country <span class="arrow"></span></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Doe</td>
+            <td>35</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>25</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Emma Jones</td>
+            <td>30</td>
+            <td>Canada</td>
+        </tr>
+    </tbody>
 </table>
+
+<script>
+function sortTable(column) {
+    var table, rows, switching, i, x, y, shouldSwitch, dir = "asc", switchcount = 0;
+    table = document.getElementById("sortableTable");
+    switching = true;
+    // Initially remove all arrow classes
+    var allHeaders = table.getElementsByTagName("TH");
+    for (i = 0; i < allHeaders.length; i++) {
+        var arrowSpan = allHeaders[i].querySelector('.arrow');
+        arrowSpan.classList.remove("asc", "desc");
+    }
+    while (switching) {
+        switching = false;
+        rows = table.rows;
+        for (i = 1; i < (rows.length - 1); i++) {
+            shouldSwitch = false;
+            x = rows[i].getElementsByTagName("TD")[column];
+            y = rows[i + 1].getElementsByTagName("TD")[column];
+            if (dir == "asc") {
+                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                }
+            } else if (dir == "desc") {
+                if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                }
+            }
+        }
+        if (shouldSwitch) {
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+            switchcount++;
+        } else {
+            if (switchcount == 0 && dir == "asc") {
+                dir = "desc";
+                switching = true;
+            }
+        }
+    }
+    // Update the arrow direction for the sorted column
+    var header = allHeaders[column];
+    var arrowSpan = header.querySelector('.arrow');
+    if (dir === "asc") {
+        arrowSpan.classList.add("asc");
+    } else {
+        arrowSpan.classList.add("desc");
+    }
+}
+</script>
+
+</body>
+
