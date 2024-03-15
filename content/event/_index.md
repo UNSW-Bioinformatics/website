@@ -50,7 +50,7 @@ Previous and upcoming events hosted by our team.
       <h3>2023</h3>
     </div>
     <div class="text-info">
-      <p> Single-cell analysis workshop. Level 6 Wallace Wurth Building, UNSW. Contact: Sara Ballouz and Raymond Louie</p>
+      <p> Single-cell analysis workshop. <br> Level 6 Wallace Wurth Building, UNSW. <br> Contact: Sara Ballouz and Raymond Louie</p>
     </div>
     <div class="photo">
       <img src="scworkshop2023.jpeg" alt="Event Photo">
