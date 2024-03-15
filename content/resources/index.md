@@ -16,7 +16,6 @@ Here are software packages developed by members of our group.
             padding-right: 25px; /* Make space for the arrow */
         }
         .sortable .arrow {
-            position: absolute;
             right: 5px;
             top: 50%;
 	    color: white;
