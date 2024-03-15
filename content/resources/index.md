@@ -34,112 +34,21 @@ Here are software packages developed by members of our group.
 
 </table>
 
-<head>
-    <title>Sortable Table with Arrows</title>
-    <style>
-        th {
-            cursor: pointer;
-            position: relative;
-        }
-        th:hover::after {
-            content: ' ⇅'; /* Default arrow indicating sortable */
-        }
-        .ascending::after {
-            content: ' ↑'; /* Arrow for ascending sort */
-        }
-        .descending::after {
-            content: ' ↓'; /* Arrow for descending sort */
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        tr:hover {
-            background-color: #f5f5f5;
-        }
-    </style>
-</head>
-<body>
-
-<h2>Sortable Table with Arrows</h2>
-<p>Click on the headers to sort the table.</p>
-
-<table id="sortableTable">
-    <thead>
-        <tr>
-            <th onclick="sortTable(0, this)">Name</th>
-            <th onclick="sortTable(1, this)">Age</th>
-            <th onclick="sortTable(2, this)">Country</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>John Doe</td>
-            <td>35</td>
-            <td>USA</td>
-        </tr>
-        <tr>
-            <td>Jane Smith</td>
-            <td>25</td>
-            <td>UK</td>
-        </tr>
-        <tr>
-            <td>Emma Jones</td>
-            <td>30</td>
-            <td>Canada</td>
-        </tr>
-    </tbody>
+<table class="sortable">
+ <thead>
+   <tr>
+     <th>Athlete</th>
+     <th>Age</th>
+     <th>Country</th>
+     <th>Gold Medals</th>
+  </tr>
+ </thead>
+  <tbody>
+  <tr>
+   <td>David Boudia</td>
+   <td>23</td>
+   <td>United States</td>
+   <td>1</td>
+  </tr>
+  </tbody>
 </table>
-
-<script>
-function sortTable(column, thElement) {
-    var table, rows, switching, i, x, y, shouldSwitch, dir = "asc", switchcount = 0;
-    table = document.getElementById("sortableTable");
-    switching = true;
-    // Remove arrow from all headers
-    var allHeaders = table.getElementsByTagName("TH");
-    for (i = 0; i < allHeaders.length; i++) {
-        allHeaders[i].classList.remove("ascending", "descending");
-    }
-    /* Make a loop that will continue until
-    no switching has been done: */
-    while (switching) {
-        switching = false;
-        rows = table.rows;
-        for (i = 1; i < (rows.length - 1); i++) {
-            shouldSwitch = false;
-            x = rows[i].getElementsByTagName("TD")[column];
-            y = rows[i + 1].getElementsByTagName("TD")[column];
-            if (dir == "asc") {
-                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-                    shouldSwitch = true;
-                    break;
-                }
-            } else if (dir == "desc") {
-                if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-                    shouldSwitch = true;
-                    break;
-                }
-            }
-        }
-        if (shouldSwitch) {
-            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-            switching = true;
-            switchcount++;
-        } else {
-            if (switchcount == 0 && dir == "asc") {
-                dir = "desc";
-                switching = true;
-            }
-        }
-    }
-    if (dir == "asc") {
-        thElement.classList.add("ascending");
-    } else {
-        thElement.classList.add("descending");
-    }
-}
-</script>
-
-</body>
