@@ -23,16 +23,16 @@ Previous and upcoming events hosted by our team.
   }
  .text-info {
     color: #ffffff; /* Make text color white */
+    flex: 3;
   }
   .event > div {
     padding: 20px;
   }
   .year, .text-info {
-    flex: 1;
     text-align: center; /* Center text horizontally */
   }
   .photo {
-    flex: 2;
+    flex: 1;
   }
   .photo img {
     width: 100%;
