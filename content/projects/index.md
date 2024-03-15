@@ -95,8 +95,8 @@ function sortTable(column) {
 <h4> Representative publications</h4>
 <ol style="font-size:14px;">
 <li> MS Sohail, <span style="color: red;"> R. H. Y. Louie </span>, Z Hong, JP Barton, MR McKay. Inferring epistasis from genetic time-series data. Molecular Biology and Evolution 39 (10) </li>
-<li> S. Sohail*, <span style="color: red;"> R. H. Y. Louie* </span>, J. P. Barton, and M. R. McKay, “MPL resolves genetic linkage in fitness inference from complex evolutionary histories”, Nature Biotechnology. 2021 *Equal contribution </li>
-<li>  A. A. Quadeer, M. R. McKay, J.P. Barton, <span style="color: red;"> R.H.Y. Louie, “MPF-BML: a standalone GUI-based package for maximum entropy model inference”, Bioinformatics, 36 (7), pp 2278-2279, April, 2020 </li>
+<li> MS. Sohail*, <span style="color: red;"> R. H. Y. Louie* </span>, J. P. Barton, and M. R. McKay, “MPL resolves genetic linkage in fitness inference from complex evolutionary histories”, Nature Biotechnology. 2021 *Equal contribution </li>
+<li>  A. A. Quadeer, M. R. McKay, J.P. Barton, <span style="color: red;"> R.H.Y. Louie </span>, “MPF-BML: a standalone GUI-based package for maximum entropy model inference”, Bioinformatics, 36 (7), pp 2278-2279, April, 2020 </li>
 <li> A. A. Quadeer, <span style="color: red;"> R.H.Y. Louie </span>and M. R. McKay, "Identifying immunologically-vulnerable regions of the HCV E2 glycoprotein and broadly neutralizing antibodies that target them”, Nature Communications, 10 (1), pp. 1-11, 2019 </li>
 <li> <span style="color: red;"> R. H. Y. Louie </span>, K. J. Kaczorowski, J. P. Barton, A. K. Chakraborty, and M. R. McKay, “The fitness landscape of the human immunodeficiency virus envelope proteins that are the targets of humoral immune responses”, Proceedings of the National Academy of Sciences of the USA (PNAS), 115:E564-E573, Jan 2018.  </li>
 <li> A. A. Quadeer, <span style="color: red;"> R.H.Y. Louie </span>, K. Shekhar, A. K. Chakraborty, I. Hsing, and M. R. McKay, “Statistical linkage of mutations in the non-structural proteins of Hepatitis C virus exposes targets for immunogen design,” Journal of Virology, vol. 88, no. 13, pp. 7628-7644, July 2014 </li>
@@ -119,7 +119,7 @@ function sortTable(column) {
 <h4> Representative publications</h4>
 
 <ol style="font-size:14px;">
-<li> Yanpint Yang, <span style="color: red;">R. H. Y. Louie</span> et al, "Chimeric Antigen Receptor T Cell Therapy Targeting Epithelial Cell Adhesion Molecule in Gastric Cancer: Mechanisms of Tumor Resistance", Cancers, 2023. </li>
+<li> Yanping Yang, <span style="color: red;">R. H. Y. Louie</span> et al, "Chimeric Antigen Receptor T Cell Therapy Targeting Epithelial Cell Adhesion Molecule in Gastric Cancer: Mechanisms of Tumor Resistance", Cancers, 2023. </li>
 <li>  R. H. Y. Louie et al, "CAR+ and CAR− T cells share a differentiation trajectory into an NK-like subset after CD19 CAR T cell infusion in patients with B cell malignancies", Nature Communications, 2023 </li>
 <li> M Gupta, H Balachandran, <span style="color: red;">R. H. Y. Louie </span>, H Li, D Agapiou, E Keoshkerian, et al, “High activation levels maintained in receptor‐binding domain–specific memory B cells in people with severe coronavirus disease” Immunology and Cell Biology 101 (2), 142-155. 2023. </li>
 <li>  C Cai, J Samir, MR Pirozyan, TN Adikari, M Gupta, P Leung, B Hughes, <span style="color: red;">R. H. Y. Louie </span> et al., Identification of human progenitors of exhausted CD8+ T cells associated with elevated IFN-γ response in early phase of viral infection. Nature Communications 13 (1), 7543. 2022. </li>
