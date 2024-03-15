@@ -22,7 +22,7 @@ Previous and upcoming events hosted by our team.
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
  .text-info {
-    color: #ffffff; /* Make text color white */
+    color: white; /* Make text color white */
     flex: 3;
   }
   .event > div {
