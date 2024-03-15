@@ -19,7 +19,7 @@ Here are software packages developed by members of our group.
             position: absolute;
             right: 5px;
             top: 50%;
-            transform: translateY(-50%);
+	    color: white;
         }
         .asc::after {
             content: '▲';
