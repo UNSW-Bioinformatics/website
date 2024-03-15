@@ -6,29 +6,35 @@
 Here are software packages developed by members of our group.
 
 
+
 <head>
-    <title>Sortable Table with Permanent Arrows</title>
+    <title>Sortable Table with Arrows</title>
     <style>
-        .table-responsive {
-            width: 100%;
-            margin: 0 auto;
-        }
-        .table-bordered, .table-bordered td, .table-bordered th {
-            border: 1px solid #ddd;
-        }
-        td, th {
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #4CAF50;
-            color: white;
+        .sortable th {
             cursor: pointer;
+            position: relative;
+            padding-right: 25px; /* Make space for the arrow */
         }
-        th .arrow {
-            color: white;
-            font-size: 12px;
-            margin-left: 5px;
+        .sortable .arrow {
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .asc::after {
+            content: '▲';
+        }
+        .desc::after {
+            content: '▼';
+        }
+        .table-responsive, .table-bordered {
+            border: 1px solid #ddd;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .table-responsive td, .table-bordered td {
+            border: 1px solid #ddd;
+            padding: 8px;
         }
         .text-center {
             text-align: center;
@@ -37,31 +43,52 @@ Here are software packages developed by members of our group.
 </head>
 <body>
 
-<table class="table-responsive table-bordered">
+<table class="table-responsive table-bordered sortable">
+  <thead>
     <tr>
-        <th class="text-center">Brief Description <span class="arrow">&#9660;</span></th>
-        <th class="text-center">Contact <span class="arrow">&#9660;</span></th>
-        <th class="text-center">Description <span class="arrow">&#9660;</span></th>
-        <th colspan="2"></th>
+      <th class="text-center" onclick="sortTable(0)">Brief Description <span class="arrow"></span></th>
+      <th class="text-center" onclick="sortTable(1)">Contact <span class="arrow"></span></th>
+      <th class="text-center" onclick="sortTable(2)">Description <span class="arrow"></span></th>
+      <th colspan="2" class="text-center">Links</th>
     </tr>
-    <!-- Table rows go here -->
+  </thead>
+  <tbody>
+    <tr>
+      <td>MPF-BML</td>
+      <td><a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a></td>
+      <td>Minimum probability flow–Boltzmann Machine Learning (MPF–BML) performs fast and accurate inference of maximum entropy model parameters. This has been previously applied to viral-sequence data to design efficient vaccines.</td>
+      <td><a href="https://github.com/raymondlouie/MPF-BML" style="color:#ce1126">Software</a></td>
+      <td><a href="https://academic.oup.com/bioinformatics/article/36/7/2278/5680343?login=false" style="color:#ce1126;">Journal Article</a></td>
+    </tr>
+    <tr>
+      <td>MPL</td>
+      <td><a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a></td>
+      <td>Marginal path likelihood (MPL) infers selection from evolutionary histories that resolves genetic linkage.</td>
+      <td><a href="https://github.com/raymondlouie/WF-MPL" style="color:#ce1126">Software</a></td>
+      <td><a href="https://www.nature.com/articles/s41587-020-0737-3" style="color:#ce1126;">Journal Article</a></td>
+    </tr>
+    <tr>
+      <td>EGAD</td>
+      <td><a href="mailto:">Sara Ballouz</a></td>
+      <td>EGAD: ultra-fast functional analysis of gene networks</td>
+      <td><a href="https://bioconductor.org/packages/release/bioc/html/EGAD.html" style="color:#ce1126">Software</a></td>
+      <td><a href="https://academic.oup.com/bioinformatics/article/33/4/612/2664343" style="color:#ce1126;">Journal Article</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <script>
-// JavaScript for sorting the table
-function sortTable(n) {
-    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-    table = document.querySelector(".table-responsive");
+function sortTable(column) {
+    var table, rows, switching, i, x, y, shouldSwitch, dir = "asc", switchcount = 0;
+    table = document.querySelector(".sortable");
     switching = true;
-    // Set the sorting direction to ascending:
-    dir = "asc";
     while (switching) {
         switching = false;
-        rows = table.rows;
+        rows = table.getElementsByTagName("TR");
         for (i = 1; i < (rows.length - 1); i++) {
             shouldSwitch = false;
-            x = rows[i].getElementsByTagName("TD")[n];
-            y = rows[i + 1].getElementsByTagName("TD")[n];
+            x = rows[i].getElementsByTagName("TD")[column];
+            y = rows[i + 1].getElementsByTagName("TD")[column];
             if (dir == "asc") {
                 if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
                     shouldSwitch = true;
@@ -82,27 +109,23 @@ function sortTable(n) {
             if (switchcount == 0 && dir == "asc") {
                 dir = "desc";
                 switching = true;
-            } else if (switchcount == 0 && dir == "desc") {
-                dir = "asc";
-                switching = true;
             }
         }
     }
-    // Update arrows based on the current sorting direction
-    var arrows = table.querySelectorAll('.arrow');
-    arrows.forEach(function(arrow) {
-        arrow.innerHTML = dir == "asc" ? "&#9650;" : "&#9660;";
-    });
-}
-
-// Attach the sort function to each header
-document.querySelectorAll('.table-responsive th').forEach(function(header, index) {
-    if (index < 3) { // Assuming the first three headers are sortable
-        header.addEventListener('click', function() {
-            sortTable(index);
+    // Update arrows
+    var allHeaders = table.querySelectorAll("th");
+    allHeaders.forEach(function(header) {
+        header.querySelectorAll(".arrow").forEach(function(arrow) {
+            arrow.className = "arrow"; // Reset
         });
+    });
+    var currentArrow = allHeaders[column].querySelector(".arrow");
+    if (dir === "asc") {
+        currentArrow.classList.add("asc");
+    } else {
+        currentArrow.classList.add("desc");
     }
-});
+}
 </script>
 
 </body>
