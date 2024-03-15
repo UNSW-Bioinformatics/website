@@ -2,16 +2,7 @@
 
 ---
 
-These are the current projects that our group members are working on. Please click on the project title below for a detailed desription. 
-
-Please contact us for student (honors and post-graduate) opportunities and research collaborations.
-
-<nav>
-     <ul>
-            <li><a href="#rationalVaccine">Rational vaccine design using computational models</a></li>
-            <li><a href="#machineLearning">Developing a machine learning model to predict disease outcome</a></li>
-     </ul>
-</nav>
+Explore our ongoing projects by clicking on their titles for detailed descriptions. For student (honors and post-graduate) opportunities and research collaborations, please get in touch.
 
 <nav>
 <head>
@@ -32,7 +23,6 @@ Please contact us for student (honors and post-graduate) opportunities and resea
 </head>
 <body>
 
-<h2>Project Table</h2>
 <table id="projectsTable">
     <thead>
         <tr>
