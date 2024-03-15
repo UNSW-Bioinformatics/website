@@ -20,13 +20,16 @@ Previous and upcoming events hosted by our team.
     margin-bottom: 20px;
     border: 1px solid #ddd;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    colour: white;
+  }
+ .text-info {
+    color: #ffffff; /* Make text color white */
   }
   .event > div {
     padding: 20px;
   }
   .year, .text-info {
     flex: 1;
+    text-align: center; /* Center text horizontally */
   }
   .photo {
     flex: 2;
