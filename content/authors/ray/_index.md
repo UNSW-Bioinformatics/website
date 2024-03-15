@@ -82,3 +82,5 @@ I received a PhD in Electrical Engineering at the University of Sydney, after wh
 I am currently recruiting postgraduate and undergraduate honors students. Please [contact me](mailto:r.louie@unsw.edu.au) if interested.
 
 Please check my [Google Scholar](https://scholar.google.com.au/citations?user=8ac1c54AAAAJ) for my publication list.
+
+Please check my [UNSW webpage](https://www.unsw.edu.au/staff/raymond-louie) for information on my grants and teaching activities.
