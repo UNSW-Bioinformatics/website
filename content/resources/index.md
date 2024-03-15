@@ -5,36 +5,6 @@
 
 Here are software packages developed by members of our group.
 
-<table class = "table-responsive table-bordered">
-  <tr>
-  <td style = "font-weight:bold" class = "text-center">Brief Description</td>
-  <td style = "font-weight:bold" class = "text-center">Contact</td>
-  <td style = "font-weight:bold" class = "text-center">Description</td>
-  <td colspan = "2"></td>
-  </tr>
-  <tr>
-  <td style = "padding-left:10px;">MPF-BML</td>
-  <td style = "padding-left:10px;"><a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a></td>
-  <td style = "padding-left:10px;padding-right:10px;">Minimum probability flow–Boltzmann Machine Learning (MPF–BML) performs fast and accurate inference of maximum entropy model parameters. This has been previously applied to viral-sequence data to design efficient vaccines.</td>
-  <td style = "padding-left:5px;padding-right:5px;"><a href = "https://github.com/raymondlouie/MPF-BML" style = "color:#ce1126">Software</a></td> <td style="padding-left:5px;"><a href = "https://academic.oup.com/bioinformatics/article/36/7/2278/5680343?login=false" style = "color:#ce1126;">Journal Article</a></td>
-  </tr>
-  <tr>
-  <td style = "padding-left:10px;">MPL</td>
-  <td style = "padding-left:10px;"><a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a></td>
-  <td style = "padding-left:10px;padding-right:10px;">Marginal path likelihood (MPL) infers selection from evolutionary histories that resolves genetic linkage.</td>
-  <td style = "padding-left:5px;padding-right:5px;"><a href = "https://github.com/raymondlouie/WF-MPL" style = "color:#ce1126">Software</a></td> <td style="padding-left:5px;"><a href = "https://www.nature.com/articles/s41587-020-0737-3" style = "color:#ce1126;">Journal Article</a></td>
-  </tr>
-
-  <tr>
-  <td style = "padding-left:10px;">EGAD</td>
-  <td style = "padding-left:10px;"><a href="mailto:">Sara Ballouz</a></td>
-  <td style = "padding-left:10px;padding-right:10px;">EGAD: ultra-fast functional analysis of gene networks</td>
-  <td style = "padding-left:5px;padding-right:5px;"><a href = "https://bioconductor.org/packages/release/bioc/html/EGAD.html" style = "color:#ce1126">Software</a></td> <td style="padding-left:5px;"><a href = "https://academic.oup.com/bioinformatics/article/33/4/612/2664343" style = "color:#ce1126;">Journal Article</a></td>
-  </tr>
-
-</table>
-
-
 <head>
     <title>Sortable Table with Arrows</title>
     <style>
@@ -51,9 +21,11 @@ Here are software packages developed by members of our group.
         }
         .asc::after {
             content: '▲';
+            color: white;
         }
         .desc::after {
             content: '▼';
+            color: white;
         }
         .table-responsive, .table-bordered {
             border: 1px solid #ddd;
@@ -74,7 +46,7 @@ Here are software packages developed by members of our group.
 <table class="table-responsive table-bordered sortable">
   <thead>
     <tr>
-      <th class="text-center" onclick="sortTable(0)">Brief Description <span class="arrow"></span></th>
+      <th class="text-center" onclick="sortTable(0)">Name<span class="arrow"></span></th>
       <th class="text-center" onclick="sortTable(1)">Contact <span class="arrow"></span></th>
       <th class="text-center" onclick="sortTable(2)">Description <span class="arrow"></span></th>
       <th colspan="2" class="text-center">Links</th>
