@@ -2,8 +2,6 @@
 
 ---
 
-<h1> Events </h1>
-
 Previous and upcoming events hosted by our team.
 
 <head>
@@ -22,6 +20,7 @@ Previous and upcoming events hosted by our team.
     margin-bottom: 20px;
     border: 1px solid #ddd;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    colour: white;
   }
   .event > div {
     padding: 20px;
@@ -51,7 +50,7 @@ Previous and upcoming events hosted by our team.
       <p> Single-cell analysis workshop. Level 6 Wallace Wurth Building, UNSW. Contact: Sara Ballouz and Raymond Louie</p>
     </div>
     <div class="photo">
-      <img src="scworkshop2023" alt="Event Photo">
+      <img src="scworkshop2023.jpeg" alt="Event Photo">
     </div>
   </div>
 
