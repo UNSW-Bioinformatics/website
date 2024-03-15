@@ -6,7 +6,7 @@ sections:
     content:
       title: Section 1
       subtitle: A subtitle
-      text: <meta http-equiv="Refresh" content="0; url='https://sarbal.github.io/binfgroup/home/'" />
+      text: <meta http-equiv="Refresh" content="0; url='https://unsw-bioinformatics.github.io/binfgroup/home/'" />
 ---
 
 
