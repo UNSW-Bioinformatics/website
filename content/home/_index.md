@@ -6,7 +6,7 @@ The **Bioinformatics and Computational Biology Research Group** has been a hub f
 
 We are involved in a number of [research](../projects) and [bioinformatics software](../resources) projects, and offer these projects for both honors and post-graduate students. 
 
-We are the key contact people for the [Bachelor of Engineering (Bioinformatics) degree](../teaching/) at UNSW, and are happy to speak at external events (e.g., high school and career events). 
+We are the key contact people for the [Bachelor of Engineering (Bioinformatics)](../teaching/) degree at UNSW, and are happy to speak at external events (e.g., high school and career events). 
 
 <h2>News</h2>
 
@@ -17,8 +17,8 @@ We are the key contact people for the [Bachelor of Engineering (Bioinformatics) 
 <ul style="font-size:18px;">
   <li> Hasindu Gamaarachchi delivered a flash talk at the Australian Bioinformatics and Computational Biology Society (ABACBS) 2023 conference. Three of his students, Hiruna Samarakoon, Kisaru Liyanage and Elton Shih, presented research posters at this conference</li>
   <li> Hasindu Gamaarachchi is co-investigator of $2.93 million Medical Research Future Fund (MRFF) grant.</li>
-  <li> Raymond Louie co-awarded a 4-year NHMRC Ideas Grant entitled "Harnessing Pathogenic Immune Cells to Develop a New Diagnostic for Non-Responders and Refractory Conditions in Celiac Disease", with a total budget of $1,094,640.50.</li>
-  <li> Hasindu Gamaraachchi co-authors study published in Nature. This research focuses on landscape of genomic structural variation in Indigenous Australians. It reveals the unique diversity of Indigenous Australians and provides the most comprehensive picture to date of the genomic diversity within and between First Nations communities across Australia.</li>
+  <li> Raymond Louie was co-awarded a 4-year NHMRC Ideas Grant entitled "Harnessing Pathogenic Immune Cells to Develop a New Diagnostic for Non-Responders and Refractory Conditions in Celiac Disease", with a total budget of $1,094,640.50.</li>
+  <li> Hasindu Gamaraachchi and co-authors published in Nature. This research focuses on landscape of genomic structural variation in Indigenous Australians. It reveals the unique diversity of Indigenous Australians and provides the most comprehensive picture to date of the genomic diversity within and between First Nations communities across Australia.</li>
   <li> Raymond Louie has the following paper accepted: "CAR+ and CAR- T cells share a differentiation trajectory into an NK-like subset after CD19 CAR-T cell infusion in patients with B cell malignancies",  Nature Communications.
   <li> Raymond Louie has the following paper accepted: "Chimeric Antigen Receptor T Cell Therapy Targeting Epithelial Cell Adhesion Molecule in Gastric Cancer: Mechanisms of Tumor Resistance", Cancers</li>
 </ul style="font-size:18px;">
