@@ -34,12 +34,21 @@ Here are software packages developed by members of our group.
 
 </table>
 
-
 <head>
-    <title>Sortable Table Example</title>
+    <title>Sortable Table with Arrows</title>
     <style>
         th {
             cursor: pointer;
+            position: relative;
+        }
+        th:hover::after {
+            content: ' ⇅'; /* Default arrow indicating sortable */
+        }
+        .ascending::after {
+            content: ' ↑'; /* Arrow for ascending sort */
+        }
+        .descending::after {
+            content: ' ↓'; /* Arrow for descending sort */
         }
         th, td {
             padding: 10px;
@@ -53,15 +62,15 @@ Here are software packages developed by members of our group.
 </head>
 <body>
 
-<h2>Sortable Table</h2>
+<h2>Sortable Table with Arrows</h2>
 <p>Click on the headers to sort the table.</p>
 
 <table id="sortableTable">
     <thead>
         <tr>
-            <th onclick="sortTable(0)">Name</th>
-            <th onclick="sortTable(1)">Age</th>
-            <th onclick="sortTable(2)">Country</th>
+            <th onclick="sortTable(0, this)">Name</th>
+            <th onclick="sortTable(1, this)">Age</th>
+            <th onclick="sortTable(2, this)">Country</th>
         </tr>
     </thead>
     <tbody>
@@ -84,32 +93,26 @@ Here are software packages developed by members of our group.
 </table>
 
 <script>
-function sortTable(column) {
-    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+function sortTable(column, thElement) {
+    var table, rows, switching, i, x, y, shouldSwitch, dir = "asc", switchcount = 0;
     table = document.getElementById("sortableTable");
     switching = true;
-    // Set the sorting direction to ascending:
-    dir = "asc";
+    // Remove arrow from all headers
+    var allHeaders = table.getElementsByTagName("TH");
+    for (i = 0; i < allHeaders.length; i++) {
+        allHeaders[i].classList.remove("ascending", "descending");
+    }
     /* Make a loop that will continue until
     no switching has been done: */
     while (switching) {
-        // Start by saying: no switching is done:
         switching = false;
         rows = table.rows;
-        /* Loop through all table rows (except the
-        first, which contains table headers): */
         for (i = 1; i < (rows.length - 1); i++) {
-            // Start by saying there should be no switching:
             shouldSwitch = false;
-            /* Get the two elements you want to compare,
-            one from current row and one from the next: */
             x = rows[i].getElementsByTagName("TD")[column];
             y = rows[i + 1].getElementsByTagName("TD")[column];
-            /* Check if the two rows should switch place,
-            based on the direction, asc or desc: */
             if (dir == "asc") {
                 if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-                    // If so, mark as a switch and break the loop:
                     shouldSwitch = true;
                     break;
                 }
@@ -121,20 +124,20 @@ function sortTable(column) {
             }
         }
         if (shouldSwitch) {
-            /* If a switch has been marked, make the switch
-            and mark that a switch has been done: */
             rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
             switching = true;
-            // Each time a switch is done, increase this count by 1:
-            switchcount ++;
+            switchcount++;
         } else {
-            /* If no switching has been done AND the direction is "asc",
-            set the direction to "desc" and run the while loop again. */
             if (switchcount == 0 && dir == "asc") {
                 dir = "desc";
                 switching = true;
             }
         }
+    }
+    if (dir == "asc") {
+        thElement.classList.add("ascending");
+    } else {
+        thElement.classList.add("descending");
     }
 }
 </script>
