@@ -73,6 +73,27 @@ Here are software packages developed by members of our group.
       <td><a href="https://bioconductor.org/packages/release/bioc/html/EGAD.html" style="color:#ce1126">Software</a></td>
       <td><a href="https://academic.oup.com/bioinformatics/article/33/4/612/2664343" style="color:#ce1126;">Journal Article</a></td>
     </tr>
+    <tr>
+      <td>f5c</td>
+      <td><a href="mailto:">Hasindu Gamaarachchi</a></td>
+      <td>f5c: Ultra-fast methylation calling and event alignment tool for nanopore sequencing data (supports CUDA acceleration)</td>
+      <td><a href="https://github.com/hasindu2008/f5c" style="color:#ce1126">Software</a></td>
+      <td><a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03697-x" style="color:#ce1126;">Journal Article</a></td>
+    </tr>
+    <tr>
+      <td>slow5lib</td>
+      <td><a href="mailto:">Hasindu Gamaarachchi</a></td>
+      <td>slow5lib: A software library for reading & writing SLOW5 files. SLOW5 is a new file format for storing signal data from Oxford Nanopore Technologies (ONT) devices. </td>
+      <td><a href="https://github.com/hasindu2008/slow5lib" style="color:#ce1126">Software</a></td>
+      <td><a href="https://www.nature.com/articles/s41587-021-01147-4" style="color:#ce1126;">Journal Article</a></td>
+    </tr>
+    <tr>
+      <td>slow5tools</td>
+      <td><a href="mailto:">Hasindu Gamaarachchi</a></td>
+      <td>slow5tools: A toolkit for converting (FAST5 <-> SLOW5), compressing, viewing, indexing and manipulating data in SLOW5 format.</td>
+      <td><a href="https://github.com/hasindu2008/slow5tools" style="color:#ce1126">Software</a></td>
+      <td><a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02910-3" style="color:#ce1126;">Journal Article</a></td>
+    </tr>	    
   </tbody>
 </table>
 
