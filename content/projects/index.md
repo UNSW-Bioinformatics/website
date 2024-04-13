@@ -132,3 +132,29 @@ function sortTable(column) {
 
 </section>
 
+
+<hr>
+
+<section id="fastanalysis">
+<h3>Computational methods for fast, lightweight and live nanopore sequencing analysis</h3> 
+
+<p style="font-size:14px;">Third generation Nanopore sequencing is an emerging technology that has countless applications in fields such as precision medicine, forensics and agriculture. While handheld portable nanopore sequencing devices exist, powerful computers are required to perform subsequent data analysis.  This project aims to create improved, highly efficient analysis methods and designs for the future creation of custom computer hardware for portable nanopore analysis. Work involves the design of new algorithms and data structures that maps well to modern computer systems and accelerating those using technologies such as SIMD, GPU, and FPGA.  </p> 
+
+<h4> Representative publications</h4>
+<ol style="font-size:14px;">
+<li> <span style="color: red;"> Gamaarachchi, H. </span>, Samarakoon, H., Jenner, S.P., Ferguson, J.M., Amos, T.G., Hammond, J.M., Saadat, H., Smith, M.A., Parameswaran, S. and Deveson, I.W., 2022. Fast nanopore sequencing data analysis with SLOW5. Nature biotechnology, 40(7), pp.1026-1029. </li>
+<li> <span style="color: red;"> Gamaarachchi, H. </span> , Lam, C.W., Jayatilaka, G., Samarakoon, H., Simpson, J.T., Smith, M.A. and Parameswaran, S., 2020. GPU accelerated adaptive banded event alignment for rapid comparative nanopore signal analysis. BMC bioinformatics, 21, pp.1-13. </li>
+<li>  Shih, P.J., Saadat, H., Parameswaran, S. and <span style="color: red;"> Gamaarachchi, H. </span>, 2023. Efficient real-time selective genome sequencing on resource-constrained devices. GigaScience, 12, p.giad046. </li>
+<li> Samarakoon, H., Punchihewa, S., Senanayake, A., Hammond, J.M., Stevanovski, I., Ferguson, J.M., Ragel, R., <span style="color: red;"> Gamaarachchi, H.* </span> and Deveson, I.W.*, 2020. Genopo: a nanopore sequencing analysis toolkit for portable Android devices. Communications biology, 3(1), p.538. *joint-senior authors</li>
+<li> Samarakoon, H., Ferguson, J.M., Jenner, S.P., Amos, T.G., Parameswaran, S., <span style="color: red;"> Gamaarachchi, H.* </span> and Deveson, I.W.*, 2023. Flexible and efficient handling of nanopore sequencing signal data with slow5tools. Genome Biology, 24(1), p.69.  *joint-senior authors</li>
+<li> Samarakoon, H., Ferguson, J.M., <span style="color: red;"> Gamaarachchi, H.* </span> and Deveson, I.W.*, 2023. Accelerated nanopore basecalling with SLOW5 data format. Bioinformatics, 39(6), p.btad352. *joint-senior authors </li>
+</ol>
+
+
+<h4> More information</h4>
+<p style="font-size:14px;"> Postgraduate opportunities are available. Enthusiastic and self-motivated candidates who are ready to take up this challenge are requested to contact via email: hasindu+hdr@unsw.edu.au.</p> 
+
+</section>
+
+
+
