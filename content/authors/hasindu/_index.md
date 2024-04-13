@@ -39,13 +39,20 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:hasindu+binf@unsw.edu.au'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/Hasindu2008
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/hasindugamaarachchi
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=XVAjC6cAAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/hasindu2008
+        
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
