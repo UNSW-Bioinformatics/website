@@ -40,6 +40,10 @@ Explore our ongoing projects by clicking on their titles for detailed descriptio
             <td><a href="#machineLearning">Developing a machine learning model to predict disease outcome</a></td>
             <td><a href="mailto:r.louie@unsw.edu.au">Raymond Louie</a></td>
         </tr>
+        <tr>
+            <td><a href="#fastanalysis">Computational methods for fast, lightweight and live nanopore sequencing analysis</a></td>
+            <td><a href="">Hasindu Gamaarachchi</a></td>
+        </tr>      
     </tbody>
 </table>
 </nav>
@@ -152,7 +156,7 @@ function sortTable(column) {
 
 
 <h4> More information</h4>
-<p style="font-size:14px;"> Postgraduate opportunities are available. Enthusiastic and self-motivated candidates who are ready to take up this challenge are requested to contact via email: hasindu+hdr@unsw.edu.au.</p> 
+<p style="font-size:14px;"> Postgraduate opportunities are available. Candidates are expected to have a strong background in computer engineering with a focus on low-level system programming (must be proficient in C), computer architecture and embedded systems. Previous bioinformatics knowledge is not a must but candidates should be prepared to learn the necessary background material quickly. Enthusiastic and self-motivated candidates who are ready to take up this challenge are requested to contact via email: hasindu+hdr@unsw.edu.au.</p> 
 
 </section>
 
