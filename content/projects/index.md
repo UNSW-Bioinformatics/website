@@ -158,8 +158,8 @@ function sortTable(column) {
 <h4> More information</h4>
 <p style="font-size:14px;"> Postgraduate opportunities are available. Candidates are expected to have a strong background in computer engineering with a focus on low-level system programming (must be proficient in C), computer architecture and embedded systems. Previous bioinformatics knowledge is not a must but candidates should be prepared to learn the necessary background material quickly. Enthusiastic and self-motivated candidates who are ready to take up this challenge are requested to contact me via email: hasindu+hdr@unsw.edu.au. In emails you send, make sure to include the ASCII text of the following byte array as the subject (not the byte array, but the ASCII text version). This is to make sure I do not miss emails from genuine and serious candidates amongst hundreds of generic spam emails.
 </p>
-<verbatim>80,0x68,68,32,0b1101111,0x70,112,111,114,116,117,110,105,116,0b1111001,32,105,110,0x20,0x66,97,0x73,116,
-32,110,97,110,111,112,0b1101111,114,101,32,97,110,0x61,108,121,115,105,115,32,40,118,48,46,49,46,48,41</verbatim>
+<i>80,0x68,68,32,0b1101111,0x70,112,111,114,116,117,110,105,116,0b1111001,32,105,110,0x20,0x66,97,0x73,116,
+32,110,97,110,111,112,0b1101111,114,101,32,97,110,0x61,108,121,115,105,115,32,40,118,48,46,49,46,48,41</i>
 
 </section>
 
