@@ -43,7 +43,11 @@ Explore our ongoing projects by clicking on their titles for detailed descriptio
         <tr>
             <td><a href="#fastanalysis">Computational methods for fast, lightweight and live nanopore sequencing analysis</a></td>
             <td><a href="">Hasindu Gamaarachchi</a></td>
-        </tr>      
+        </tr>  
+        <tr>
+            <td><a href="#sexdiff">Sex differences in disease</a></td>
+            <td><a href="">Sara Ballouz</a></td>
+        </tr> 
     </tbody>
 </table>
 </nav>
@@ -162,6 +166,23 @@ function sortTable(column) {
 <i>80,0x68,68,32,0b1101111,0x70,112,111,114,116,117,110,105,116,0b1111001,32,105,110,0x20,0x66,97,0x73,116,
 32,110,97,110,111,112,0b1101111,114,101,32,97,110,0x61,108,121,115,105,115,32,40,118,48,46,49,46,48,41</i>
 </p>
+
+</section>
+
+
+<section id="sexdiffs">
+<h3>Sex differences in disease</h3> 
+<p style="font-size:14px;"> Many diseases affect men and women differently. Of individuals suffering from autoimmune disease, approximately 80% are female. Despite decades of study, a critical gap in our understanding underlying these differences still remains. In particular, the cell-types, genes, gene interactions and regulatory networks generating sex differences in the immune system and how these manifest into disease. More broadly, post-viral illnesses such as long-COVID, and ME/CFS, are also female biased, while cancers are generally male-biased. </p> 
+
+<h4> Representative publications</h4>
+<ol style="font-size:14px;">
+<li>  <span style="color: purple;">  </span>,   </li>
+ 
+</ol>
+
+
+<h4> More information</h4>
+<p style="font-size:14px;"> Honors and postgraduate opportunities are available. Please send your CV and academic transcript to <a href="mailto:s.ballouz@unsw.edu.au">Sara Ballouz</a>.</p> 
 
 </section>
 
