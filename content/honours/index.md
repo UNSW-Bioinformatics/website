@@ -2,7 +2,7 @@
 
 ---
 
-Honours guidelines
+Honours guidelines:: UNDER CONSTRUCTION
 
 <head>
 <meta charset="UTF-8">
@@ -44,7 +44,7 @@ Honours guidelines
 <div>
 Thank you for our patience while we put this together.
 Please check out these resources in the meanwhile. 
-<a href="https://thesis.cse.unsw.edu.au/" style="color:#ce1126">Thesis database</a>
+<a href="https://thesis.cse.unsw.edu.au/" style="color:#ce1126">Thesis database</a> 
 <a href="https://www.unsw.edu.au/research/hdr/find-a-supervisor#search=&filters=f.Faculty%257CstaffFaculty%3AEngineering+f.School%257CstaffSchool%3AComputer%2BScience%2Band%2BEngineering&sort=metastaffLastName&startRank=37&numRanks=12&componentId=9b55bf87-4f96-4bd5-ac5a-77540c6557f8" style="color:#ce1126">CSE/UNSW researchers</a>
 </div> 
 
