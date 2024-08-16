@@ -9,12 +9,13 @@
 body {
 width: 1000px
 }
-div {
-    height: auto; /* Allows the container to expand based on content */
-    width: auto;
-    overflow: visible; /* Ensure content isn't cut off */
-    word-wrap: break-word; /* Ensure long words break and fit within the container */
-    white-space: normal; /* Ensure text wraps normally */
+.section{
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: scroll; /* Adds vertical scroll bar */
+    padding: 15px; /* Optional: add padding for better readability */
+    border: 1px solid #ccc; /* Optional: add border to define the container */
+    background-color: #222; /* Match the background color to your theme */
+    color: #fff; /* Text color */
 }
 .content {
     max-width: 1500px; /* Sets a maximum width for the text */
