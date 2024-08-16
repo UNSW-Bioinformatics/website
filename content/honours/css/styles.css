@@ -51,7 +51,7 @@ body {
 }
 
 .content {
-    width: 700px; /* Content area width */
+    width: 1000px; /* Content area width */
     padding: 5px; /* Add some padding for content readability */
     color: #fff !important; /* Ensure content text is white */
 }
