@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 1000px; 
+    width: 1500px; 
     display: flex;
     height: 500px; 
 }
@@ -51,7 +51,7 @@ body {
 }
 
 .content {
-    width: 1000px; /* Content area width */
+    width: 700px; /* Content area width */
     padding: 5px; /* Add some padding for content readability */
     color: #fff !important; /* Ensure content text is white */
 }
