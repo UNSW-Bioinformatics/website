@@ -23,6 +23,7 @@
         </div>
         <div class="content">
             <iframe name="content" src="sections/welcome.html"></iframe>
+            <iframe name="content" src="sections/honours_overview.html"></iframe>
         </div>
     </div>
 </body>
