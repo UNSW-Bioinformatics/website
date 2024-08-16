@@ -29,6 +29,5 @@ Honours guidelines:: UNDER CONSTRUCTION
             <iframe name="content" src="sections/welcome.html"></iframe>
         </div>
     </div>
-    <script src="js/script.js"></script>
 </body>
 </html>
