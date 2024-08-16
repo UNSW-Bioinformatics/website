@@ -13,7 +13,7 @@ body {
 }
 
 .sidebar {
-    width: 15%; /* Increased width for the sidebar */
+    width: 55%; /* Increased width for the sidebar */
     background-color: #2b2b2b; /* Match sidebar background with main background */
     padding: 15px;
     box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
