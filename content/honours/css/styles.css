@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    color: white; /* Set text color to white */
     background-color: #2b2b2b; /* Dark background for contrast */
 }
 
@@ -22,7 +21,7 @@ body {
 .sidebar h2 {
     font-size: 20px;
     margin-bottom: 15px;
-    color: white; /* Ensure sidebar header text is white */
+    color: #fff; /* Ensure sidebar header text is white */
 }
 
 .sidebar ul {
@@ -36,18 +35,18 @@ body {
 
 .sidebar ul li a {
     text-decoration: none;
-    color: white; /* Set sidebar links text color to white */
+    color: #fff !important; /* Force sidebar links text color to white */
 }
 
 .sidebar ul li a:hover {
     text-decoration: underline;
-    color: white; /* Highlighted link color remains white */
+    color: #fff !important; /* Ensure hovered link color remains white */
 }
 
 .content {
     width: 85%; /* Content area width */
     padding: 15px;
-    color: white; /* Ensure content text is white */
+    color: #fff !important; /* Ensure content text is white */
 }
 
 iframe {
@@ -57,5 +56,5 @@ iframe {
 }
 
 h1, h2, h3, p, ul, li, ol {
-    color: white; /* Ensure all text elements are white */
+    color: #fff !important; /* Force all text elements to be white */
 }
