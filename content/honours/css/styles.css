@@ -4,6 +4,7 @@ body {
     padding: 0;
     display: flex;
     background-color: #2b2b2b; /* Dark background for contrast */
+    color: white; /* Set text color to white */
 }
 
 .container {
@@ -12,14 +13,14 @@ body {
 }
 
 .sidebar {
-    width: 15%; /* Sidebar width */
+    width: 10%; /* Reduced width for the sidebar */
     background-color: #000; /* Set sidebar background to black */
-    padding: 15px;
+    padding: 10px; /* Reduced padding to move content further left */
     box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
 }
 
 .sidebar h2 {
-    font-size: 20px;
+    font-size: 18px; /* Slightly smaller font size to fit within narrower sidebar */
     margin-bottom: 15px;
     color: #fff; /* Ensure sidebar header text is white */
 }
@@ -44,8 +45,8 @@ body {
 }
 
 .content {
-    width: 85%; /* Content area width */
-    padding: 15px;
+    width: 90%; /* Increased width for the content area */
+    padding: 20px; /* Add some padding for content readability */
     color: #fff !important; /* Ensure content text is white */
 }
 
@@ -56,5 +57,5 @@ iframe {
 }
 
 h1, h2, h3, p, ul, li, ol {
-    color: #fff !important; /* Force all text elements to be white */
+    color: #fff !important; /* Ensure all text elements are white */
 }
