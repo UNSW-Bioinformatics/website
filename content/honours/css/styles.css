@@ -10,7 +10,6 @@ body {
 .container {
     display: flex;
     height: 1000px; 
-    width: 600px;
 }
 
 
@@ -50,6 +49,7 @@ body {
 }
 
 .content {
+    width: 600px;
     padding: 5px; /* Add some padding for content readability */
     color: #fff !important; /* Ensure content text is white */
 }
