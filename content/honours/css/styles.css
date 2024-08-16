@@ -9,8 +9,9 @@ body {
 }
 
 .container {
+    width: 1000px; 
     display: flex;
-    height: 2000px; 
+    height: 500px; 
 }
 
 
