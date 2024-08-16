@@ -15,7 +15,7 @@ body {
 
 
 .sidebar {
-    width: 5%; /* Increased width for the sidebar */
+    width: 15%; /* Increased width for the sidebar */
     background-color: #2b2b2b; /* Match sidebar background with main background */
     padding: 5px;
     box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
@@ -49,7 +49,7 @@ body {
 }
 
 .content {
-    width: 200%; /* Content area width */
+    width: 100%; /* Content area width */
     padding: 5px; /* Add some padding for content readability */
     color: #fff !important; /* Ensure content text is white */
     max-width: 2000px; /* Sets a maximum width for the text */
