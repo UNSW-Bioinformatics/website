@@ -6,9 +6,17 @@
         body, h1, h2, p, ul, li {
             color: white !important; /* Force the text to be white */
         }
-	body {
-    	overflow-y: auto;
-	}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+}
+body, .section {
+    padding: 10px; /* Adjust or remove padding */
+    margin: 0 auto; /* Ensure the section is centered */
+    box-sizing: border-box; /* Ensure padding/margins are included in the width */
+}
     </style>
 </head>
 <body>
