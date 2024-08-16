@@ -1,24 +1,132 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honours Structure and Assessments</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        body, h1, h2, h3, p, ul, li, table, th, td {
+            color: white !important; /* Force the text to be white */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #444;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-    <h1>Honours Structure and Assessments</h1>
-    <p>Undergraduate theses are unusual in that they consist of a single piece of work spread over three courses: Thesis A, Thesis B, and Thesis C...</p>
+    <div class="section">
+        <h1>Honours Structure and Assessments</h1>
+        <p>Undergraduate theses are unusual in that they consist of a single piece of work spread over three courses: Thesis A, Thesis B, and Thesis C. The three parts have quite different outcomes and assessment, which are described in detail below, but which can be summarized as:</p>
+        
+        <ul>
+            <li><strong>Thesis A</strong>
+                <ul>
+                    <li>Aims: understand the problem, develop a plan, start working on solution</li>
+                    <li>Assessment items: presentation in week 8, initial report in week 11</li>
+                </ul>
+            </li>
+            <li><strong>Thesis B</strong>
+                <ul>
+                    <li>Aims: complete part of the solution, evaluate it, and demonstrate your partial solution</li>
+                    <li>Assessment items: demonstration in week 11</li>
+                </ul>
+            </li>
+            <li><strong>Thesis C</strong>
+                <ul>
+                    <li>Aims: complete the solution, evaluate it, write up the whole project</li>
+                    <li>Assessment items: project demonstration in week 8, final report in week 11</li>
+                </ul>
+            </li>
+        </ul>
 
-    <h2>Thesis A (20%)</h2>
-    <p>Aims: understand the problem, understand the state-of-the-art through literature review, develop a plan, start working on a solution...</p>
+        <h2>Thesis A (20%)</h2>
+        <p>Aims: understand the problem, understand the state-of-the-art through literature review, develop a plan, start working on a solution.</p>
+        <h3>Seminar Presentation (25%)</h3>
+        <p>Make a 30-minute presentation about your Thesis A topic and the plan for Thesis B and C.</p>
+        <p>A mark out of 100 will be returned by your supervisor and the assessor, along with comments on your progress. Your thesis A mark is the average of your supervisor’s mark and assessor’s mark. Overall, Thesis A contributes 20% towards your final thesis mark.</p>
+        
+        <h3>Project and Report (75%)</h3>
+        <p>Students provide a written report, between 20 and 40 pages in length, which includes at least a review of the literature relevant to their topic and a plan for solving the problem.</p>
+        <p>A mark out of 100 will be returned by your supervisor and the assessor, along with comments on your progress. Your Thesis A mark is the average of your supervisor’s mark and assessor’s mark. Overall, Thesis A contributes 20% towards your final thesis mark.</p>
+        
+        <h2>Thesis B (5%)</h2>
+        <p>Aims: complete part of the solution, evaluate it, and demonstrate the partial solution.</p>
+        <h3>Seminar Presentation (100%)</h3>
+        <p>Make a 30-minute presentation about progress so far and present a (revised) plan for the rest of the thesis.</p>
+        <p>A mark out of 100 will be returned by your supervisor and the assessor, along with comments on your progress. Your thesis B mark is the average of your supervisor’s mark and assessor’s mark. Overall, Thesis B contributes 5% towards your final thesis mark.</p>
+        
+        <h2>Thesis C (70%)</h2>
+        <p>Aims: complete the solution, evaluate it, write up the whole project.</p>
+        <h3>Demonstration/Presentation (10%)</h3>
+        <p>Make a 30-minute presentation about the final outcome of your thesis. This could be a demonstration of a system you built or a presentation of your theoretical work.</p>
+        <p>A mark out of 100 will be returned by your supervisor and the assessor, along with comments on your work. Your thesis C mark is the average of your supervisor’s mark and assessor’s mark. Overall, Thesis C contributes 70% towards your final thesis mark.</p>
+        
+        <h3>Final Thesis Report (90%)</h3>
+        <p>The final Thesis Report is often called simply "The Thesis". It is typically 40-80 pages and consists of a literature review, a description of your solution, and an evaluation of its effectiveness.</p>
+        <p>Along with the report, you are required to submit a 150-word summary of your thesis. This summary is published in the CSE Thesis Digital Archive.</p>
 
-    <h2>Thesis B (5%)</h2>
-    <p>Aims: complete part of the solution, evaluate it, and demonstrate the partial solution...</p>
+        <h2>Participation (5%)</h2>
+        <p>Participation is a component of Thesis C but assessed by the supervisor only.</p>
 
-    <h2>Thesis C (70%)</h2>
-    <p>Aims: complete the solution, evaluate it, write up the whole project...</p>
-
-    <h2>Participation (5%)</h2>
-    <p>Participation is a component of Thesis C but assessed by the supervisor only...</p>
+        <h2>Summary of Assessments</h2>
+        <table>
+            <tr>
+                <th>Thesis Part</th>
+                <th>Due Date</th>
+                <th>Assessment Item</th>
+                <th>Weight</th>
+                <th>Total Weight</th>
+            </tr>
+            <tr>
+                <td>Thesis A</td>
+                <td>Week 8</td>
+                <td>Seminar Presentation</td>
+                <td>25%</td>
+                <td rowspan="2">20%</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Week 11</td>
+                <td>Written Report (Literature review)</td>
+                <td>75%</td>
+            </tr>
+            <tr>
+                <td>Thesis B</td>
+                <td>Week 11</td>
+                <td>Seminar Presentation</td>
+                <td>100%</td>
+                <td>5%</td>
+            </tr>
+            <tr>
+                <td>Thesis C</td>
+                <td>Week 8</td>
+                <td>Thesis Demonstration/Presentation</td>
+                <td>10%</td>
+                <td rowspan="2">70%</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Week 11</td>
+                <td>Written Report (Thesis)</td>
+                <td>90%</td>
+            </tr>
+            <tr>
+                <td>Participation</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>5%</td>
+            </tr>
+        </table>
+    </div>
 </body>
-</html>
+
