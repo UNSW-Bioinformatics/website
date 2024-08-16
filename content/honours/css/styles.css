@@ -13,8 +13,8 @@ body {
 }
 
 .sidebar {
-    width: 15%; /* Reduced width for the sidebar */
-    background-color: #333;
+    width: 15%; /* Sidebar width */
+    background-color: #000; /* Set sidebar background to black */
     padding: 15px;
     box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
 }
@@ -22,7 +22,7 @@ body {
 .sidebar h2 {
     font-size: 20px;
     margin-bottom: 15px;
-    color: white; /* Ensure sidebar text is white */
+    color: white; /* Ensure sidebar header text is white */
 }
 
 .sidebar ul {
@@ -36,17 +36,18 @@ body {
 
 .sidebar ul li a {
     text-decoration: none;
-    color: #ddd; /* Slightly lighter text color for links */
+    color: white; /* Set sidebar links text color to white */
 }
 
 .sidebar ul li a:hover {
     text-decoration: underline;
-    color: white; /* Highlighted link color */
+    color: white; /* Highlighted link color remains white */
 }
 
 .content {
-    width: 85%; /* Increased width for the content area */
+    width: 85%; /* Content area width */
     padding: 15px;
+    color: white; /* Ensure content text is white */
 }
 
 iframe {
