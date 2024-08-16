@@ -13,11 +13,6 @@ body {
     width: 100%;
 }
 
-.scrollable-content {
-    max-height: 100vh;
-    overflow-y: auto;
-    padding: 20px;
-}
 
 .sidebar {
     width: 20%; /* Increased width for the sidebar */
