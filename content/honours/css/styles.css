@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: #2b2b2b; /* Dark background for contrast */
+    background-color: #2b2b2b; /* Main dark background */
     color: white; /* Set text color to white */
 }
 
@@ -13,14 +13,14 @@ body {
 }
 
 .sidebar {
-    width: 10%; /* Reduced width for the sidebar */
-    background-color: #000; /* Set sidebar background to black */
-    padding: 10px; /* Reduced padding to move content further left */
+    width: 15%; /* Increased width for the sidebar */
+    background-color: #2b2b2b; /* Match sidebar background with main background */
+    padding: 15px;
     box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
 }
 
 .sidebar h2 {
-    font-size: 18px; /* Slightly smaller font size to fit within narrower sidebar */
+    font-size: 20px;
     margin-bottom: 15px;
     color: #fff; /* Ensure sidebar header text is white */
 }
@@ -31,12 +31,14 @@ body {
 }
 
 .sidebar ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px; /* Increased margin for better spacing */
 }
 
 .sidebar ul li a {
     text-decoration: none;
     color: #fff !important; /* Force sidebar links text color to white */
+    font-size: 16px; /* Slightly larger font size for readability */
+    line-height: 1.5; /* Increase line height for better readability */
 }
 
 .sidebar ul li a:hover {
@@ -45,7 +47,7 @@ body {
 }
 
 .content {
-    width: 90%; /* Increased width for the content area */
+    width: 85%; /* Content area width */
     padding: 20px; /* Add some padding for content readability */
     color: #fff !important; /* Ensure content text is white */
 }
