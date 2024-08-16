@@ -52,6 +52,7 @@ body {
     width: 200%; /* Content area width */
     padding: 5px; /* Add some padding for content readability */
     color: #fff !important; /* Ensure content text is white */
+    max-width: 1000px; /* Sets a maximum width for the text */
 }
 
 iframe {
